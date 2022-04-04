@@ -1,0 +1,86 @@
+@import 'nullstyle.scss';
+
+body {
+  padding: 85px 10px 0;
+  background: #E7F6FF;
+}
+
+input, button {
+  font-family: 'Inter', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 20px;
+}
+
+//body
+
+.body__content {
+  padding: 45px 40px 22px;
+}
+
+.body__heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 35px;
+
+  h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+  }
+}
+
+.body__input {
+  width: 250px;
+  padding: 15px 0 15px 18px;
+  border: 1px solid #F3F3F3;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#input {
+  margin: 0 0 0 14px;
+}
+
+.body__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

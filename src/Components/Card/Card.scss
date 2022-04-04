@@ -1,0 +1,97 @@
+
+.card {
+  flex: 1;
+  position: relative;
+  max-width: 210px;
+  padding: 20px 30px 35px;
+  margin: 20px;
+  border: 1px solid #F3F3F3;
+  border-radius: 40px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .card__img {
+    margin: 0 0 14px 0;
+  }
+}
+
+.card__text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+
+  margin: 0 0 14px 0;
+}
+
+.card__like {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9px;
+
+  background: #FFFFFF;
+  border: 1px solid #F8F8F8;
+  border-radius: 7px;
+  cursor: pointer;
+
+  svg {
+    fill: #ECECEC;
+  }
+}
+
+.card__price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      font-size: 11px;
+      line-height: 13px;
+      text-transform: uppercase;
+      color: #BDBDBD;
+    }
+
+    b {
+      font-family: 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+
+  button {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid #F2F2F2;
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.card.liked {
+  .card__like {
+    background: #FEF0F0;
+    border: none;
+
+    svg {
+      fill: #FF8585;
+    }
+  }
+}
